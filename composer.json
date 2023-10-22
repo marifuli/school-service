@@ -1,5 +1,5 @@
 {
-    "name": "marifuli/school-service",
+    "name": "marifuli/schoolynx-service",
     "description": "'Service Provider for ProSchool application'",
     "type": "library",
     "require": {
