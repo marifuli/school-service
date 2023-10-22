@@ -1,9 +1,11 @@
 {
     "name": "marifuli/schoolynx-service",
+    "license": "MIT",
+    "version": "1.2.0",
     "description": "'Service Provider for ProSchool application'",
     "type": "library",
     "require": {
-        "marifuli/service": "dev-master"
+        "marifuli/product-service": "dev-master"
     },
     "license": "MIT",
     "authors": [
