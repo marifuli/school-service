@@ -1,0 +1,28 @@
+{
+    "name": "marifuli/school-service",
+    "description": "'Service Provider for ProSchool application'",
+    "type": "library",
+    "require": {
+        "marifuli/service": "dev-master"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "marifuli",
+            "email": "admin@arifdev.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Marifuli\\SchoolService\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Marifuli\\SchoolService\\SchoolServiceProvider"
+            ]
+        }
+    }
+}
